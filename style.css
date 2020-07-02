@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Piedra', cursive; */
+}
+body{
+    background:url('bg.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    /* border:2px solid red; */
+    color:white;
+    position: absolute;
+    top:20%;
+    left:40%;
+    
+    /* width:30%; */
+}
+
+.container h1{
+    font-size:40px;
+    display: inline-block;
+    /* text-align: center; */
+    border-bottom:5px solid orchid;
+    margin-bottom: px;
+    padding:13px 0;
+}
+
+.box{
+    /* border:2px solid yellow; */
+    width:100%;
+    border-bottom: 2px solid orchid;
+    margin:22px 0;
+}
+.box i{
+    width:25px;
+    padding:0px 12px;
+    text-align: center;
+    margin-top:2px;
+}
+.box input{
+    background: none;
+    border:none;
+    width:80%;
+    /* display: inline-block; */
+    padding:3px 2px;
+    font-size:20px;
+    outline:none;
+    color:whitesmoke;
+}
+
+.btn{
+    cursor:pointer;
+    outline:none;
+    /* width:30%; */
+    margin:12px 0;
+    padding:10px 21px;
+   border-radius:10px;
+   border:2px solid orchid;
+   font-size:15px;
+   background: none;
+   color:whitesmoke;
+   font-weight: bold;
+   /* font-family: 'Anton', sans-serif; */
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Lobster', cursive;
+font-family: 'Piedra', cursive; */
+}
+
+
+.btn:hover{
+    
+   background: white;
+   color:purple;
+   
+}
